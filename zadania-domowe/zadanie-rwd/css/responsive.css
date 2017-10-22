@@ -1,0 +1,26 @@
+
+@media all and (min-width:992px) and (max-width:1172px){
+    #text{
+    margin-top: 10%;
+    margin-left: 55%;}
+        
+    .responsive{
+        background-image: url(../obrazy/man-2.jpg);}
+}
+    @media all and (max-width:992px){
+        body{
+            text-align: center;
+        }
+    .responsive{
+    
+background-image: url(../obrazy/man-1.jpg);
+        height: 50Vh;
+        
+    }
+        #text{
+            color: black;
+            padding-top: 52Vh;
+            
+        }
+}
+        
