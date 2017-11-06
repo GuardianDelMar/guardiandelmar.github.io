@@ -1,0 +1,8 @@
+button {
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    color: azure;
+    border-radius: 10px;
+    background-color: #ea1680;
+}
