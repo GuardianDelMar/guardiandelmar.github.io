@@ -1,0 +1,30 @@
+#services .mini-row {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#services .mini-row .my-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #10d8d8;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin: 45px 0px 20px 0px;
+    transition: all 0.4s;
+}
+
+#services .mini-row .my-icon:hover {
+    color: #10d8d8;
+    background-color: #fff;
+    border: 1px solid #10d8d8;
+    transform: rotate(360deg);
+}
+
+#services .mini-row .my-icon i {
+    line-height: 80px;
+    font-size: 2.5rem;
+}

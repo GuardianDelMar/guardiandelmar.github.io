@@ -1,0 +1,18 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+footer {
+    margin: 30px 0px;
+    color: $dark-grey;
+    line-height: 40px;
+    .footer-icons {
+        display: inline-flex;
+        @include icons;
+    }
+    a {
+        color: $dark-grey;
+        text-decoration: none;
+        &:hover {
+            color: $teal-color;
+        }
+    }
+}

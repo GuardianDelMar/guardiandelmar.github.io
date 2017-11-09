@@ -1,0 +1,40 @@
+#team .team-member {
+    width: 80%;
+    margin-top: 40px;
+}
+
+#team .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#team .mini-row {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#team .team-icons {
+    display: inline-flex;
+}
+
+#team .team-icons a {
+    width: 40px;
+    height: 40px;
+    background-color: #222222;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 0px 4px;
+    line-height: 40px;
+    transition: all 0.4s;
+    color: #fff;
+}
+
+#team .team-icons a:hover {
+    background-color: #10d8d8;
+    color: #fff;
+}

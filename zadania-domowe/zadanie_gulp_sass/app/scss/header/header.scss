@@ -1,0 +1,40 @@
+@import '../mixins/mixins';
+@import '../variables/variables';
+#top-banner-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../../img/header/pictures_on_the_wall.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../img/header/pictures_on_the_wall.jpg');
+    .top-banner {
+        background-repeat: none;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        color: white;
+        @include middle-flex;
+        h1 {
+            font-size: 4rem;
+        }
+        .my-btn {
+            background-color: $teal-color;
+            color: #fff;
+            padding: 10px 25px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover {
+                background-color: #fff;
+                color: $teal-color;
+                border: 1px solid $teal-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+    .top-banner {
+        height: 70vh;
+    }
+}
