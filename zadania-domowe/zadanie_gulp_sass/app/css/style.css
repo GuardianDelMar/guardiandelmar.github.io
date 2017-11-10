@@ -1,0 +1,117 @@
+.contact-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url('../img/footer/world-map.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../img/footer/world-map.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+input,
+textarea {
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 210px;
+}
+
+input::-webkit-input-placeholder {
+    color: #c5c5c5;
+}
+
+input:-ms-input-placeholder {
+    color: #c5c5c5;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+    color: #c5c5c5;
+}
+
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder {
+    color: #c5c5c5;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #c5c5c5;
+}
+
+#contact-form {
+    margin-top: 50px;
+}
+
+input[type="submit"] {
+    background-color: #10d8d8;
+    width: 300px;
+    color: #fff;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+    text-align: center;
+    font-size: 1.1rem;
+    height: 70px;
+    margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #10d8d8;
+    cursor: pointer;
+}
+
+.middle-float {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+footer {
+    margin: 30px 0px;
+    color: #222222;
+    line-height: 40px;
+}
+
+footer a {
+    color: #222222;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #10d8d8;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+    .middle-on-smaller {
+        float: none;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 3.2rem;
+    }
+    .top-banner {
+        height: 70vh;
+    }
+}
