@@ -1,0 +1,116 @@
+/*Ogolne style*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: url(../img/tlo.png);
+}
+
+
+/*navigacja i header*/
+
+.transparent_navbar {
+    background-color: rgba(90, 0, 69, 0.46);
+    transition: all 0.4s;
+
+}
+
+#main-nav {
+    height: 40px;
+    /*    background-color: #FFF;*/
+}
+
+.oM-logo {
+    color: #3c9d5a;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 20px;
+
+
+}
+
+.oM-logo span {
+    color: #5a0045;
+    font-weight: 800;
+
+}
+
+.oM-main-header {
+    background-image: url(../img/yogurt-2104327_1920.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.inner-motto {
+    font-size: 5em;
+    padding-top: 10%;
+    color: #FFF;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.inner-motto {
+    color: #3c9d5a;
+}
+
+.inner-motto span {
+    color: #5a0045;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #3c9d5a;
+}
+
+h1 span {
+    color: #5a0045;
+}
+
+
+
+/*main-content*/
+
+.oMnie-photo {
+    max-width: 100%;
+    border: 10px solid #ffffff;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.left-align {
+    text-align: left;
+    margin-top: 80px;
+}
+
+
+.sentence {
+    margin-top: 25px;
+    font-size: 2.5em;
+    font-family: 'Pacifico', cursive;
+}
+
+/*footer*/
+
+.oM-footer {
+    font-weight: 200;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #000;
+}
+
+.oM-footer .text-center {
+    margin: 0;
+}
